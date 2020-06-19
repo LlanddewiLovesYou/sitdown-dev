@@ -1,0 +1,54 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": 1,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "silent": false,
+  "entry": "index.js",
+  "paths": {
+    "ROOT": "/Users/idelduca/src/sitdown",
+    "SRC": "/Users/idelduca/src/sitdown/src",
+    "DIST": "/Users/idelduca/src/sitdown/dist",
+    "ASSETS": "/Users/idelduca/src/sitdown/dist",
+    "PLUGINS": "/Users/idelduca/src/sitdown/plugins",
+    "TEMP": "/Users/idelduca/src/sitdown/tmp",
+    "ARTIFACTS": "/Users/idelduca/src/sitdown/artifacts",
+    "PUBLIC": "/Users/idelduca/src/sitdown/public",
+    "NODE_MODULES": "/Users/idelduca/src/sitdown/node_modules",
+    "EXCLUDE_MODULES": "/Users/idelduca/src/sitdown/node_modules",
+    "PACKAGE": "/Users/idelduca/src/sitdown/package.json",
+    "HTML_TEMPLATE": "/Users/idelduca/src/sitdown/dist/index.html",
+    "STATIC_DATA": "/Users/idelduca/src/sitdown/dist/staticData"
+  },
+  "plugins": [
+    "/Users/idelduca/src/sitdown"
+  ],
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}

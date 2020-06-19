@@ -1,0 +1,17 @@
+.display-wrapper {
+    font-family: 'Roboto Mono'
+}
+
+.display-preface {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.display-title {
+    font-size: 2rem ;
+    margin: 10px 10px;
+}
+
+.display-summary {
+    margin: 0 30%
+}

@@ -1,0 +1,14 @@
+.header-text {
+    font-family: 'Roboto Mono';
+    font-size: 2rem;
+}
+
+.header-subtext {
+    font-family: "Roboto Mono";
+    font-size: 1.5rem;
+}
+
+.header-wrapper {
+    /* margin-bottom: 20px; */
+    padding-top: 20px;
+}
